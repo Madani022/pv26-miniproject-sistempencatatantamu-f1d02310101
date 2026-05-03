@@ -1,0 +1,104 @@
+/* Latar Belakang Jendela Utama & Dialog */
+QMainWindow, QDialog {
+    background-color: #121212;
+}
+
+/* --- Teks & Label --- */
+QLabel {
+    color: #E0E0E0;
+    font-size: 13px;
+}
+
+/* Styling Khusus Judul Aplikasi*/
+QLabel#judul_aplikasi {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* --- Tabel --- */
+QTableWidget {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    gridline-color: #333333;
+    font-size: 13px;
+}
+
+QTableWidget::item {
+    padding: 5px;
+}
+
+/* Warna highlight ketika baris tabel diklik */
+QTableWidget::item:selected {
+    background-color: #264F78; 
+    color: #FFFFFF;
+}
+
+/* Header (Judul Kolom Tabel) */
+QHeaderView::section {
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 6px;
+    border: none;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+/* --- Input Teks (Form Dialog) --- */
+QLineEdit {
+    border: 1px solid #444444;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    font-size: 13px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #3B82F6; 
+}
+
+/* --- Tombol Standar (Biru) --- */
+QPushButton {
+    background-color: #3B82F6; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #2563EB;
+}
+
+QPushButton:pressed {
+    background-color: #1D4ED8;
+}
+
+/* --- Tombol Hapus (Merah) --- */
+QPushButton#btn_hapus {
+    background-color: #EF4444;
+}
+
+QPushButton#btn_hapus:hover {
+    background-color: #DC2626;
+}
+
+QPushButton#btn_hapus:pressed {
+    background-color: #B91C1C;
+}
+
+QMessageBox {
+    background-color: #121212;
+}
+
+QMessageBox QLabel {
+    color: #E0E0E0;
+}
