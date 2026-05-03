@@ -19,5 +19,4 @@ Aplikasi ini dibuat sebagai pemenuhan Tugas Mini Project mata kuliah Pemrograman
 
 1. **Clone Repository**
    ```bash
-   git clone [https://github.com/](https://github.com/)[username-github-kamu]/pv26-miniproject-pencatatantamu-[NIM].git
-   cd pv26-miniproject-pencatatantamu-[NIM]
+   git clone https://github.com/Madani022/pv26-miniproject-sistempencatatantamu-f1d02310101.git
